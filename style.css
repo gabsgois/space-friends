@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   background-color: darkgrey;
   font-family: Arial;
@@ -36,4 +40,44 @@ img {
 h3 {
   color: white;
   font-size: 16px;
+}
+
+.form {
+  background-color: white;
+  border-radius: 20px;
+  margin: 0 auto;
+  padding: 20px;
+  width: 400px;
+}
+
+.form-input,
+.form-comment {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  display: block;
+  font-size: 16px;
+  margin-bottom: 10px;
+  outline: 0;
+  padding: 10px 20px;
+  width: 100%;
+}
+
+.form-input:focus,
+.form-comment:focus {
+  border: 2px dashed #bbb;
+}
+
+.btn {
+  background-color: green;
+  border: white;
+  border-radius: 8px;
+  color: white;
+  cursor: pointer;
+  font-size: 25px;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.btn:hover {
+  background-color: #025c02;
 }
